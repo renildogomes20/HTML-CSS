@@ -9,8 +9,8 @@ https://github.com/renildogomes20
 
 Meus projectos em curso:
 
-https://renildogomes20.github.io/projecto-cordel/
+<a href="https://renildogomes20.github.io/projecto-cordel/">Projecto Cordel</a>
 
-https://renildogomes20.github.io/projecto-android/
+<a href="https://renildogomes20.github.io/projecto-android/">Projecto Android</a>
 
-https://renildogomes20.github.io/projecto-social/
+<a href="https://renildogomes20.github.io/projecto-social/">Projecto Social</a>
