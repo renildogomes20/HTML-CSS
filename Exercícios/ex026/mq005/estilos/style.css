@@ -36,17 +36,17 @@ header h1 {
     color: black;
 }
 
-nav {
+menu {
     display: none;
     margin-top: 6px;
     color: rgba(255, 255, 255, 0.817);
 }
 
-nav > ul {
+menu > ul {
     list-style-type: none;
 }
 
-nav > ul > li > a{
+menu > ul > li > a{
     display: block;
     background-color: rgb(68, 65, 65);
     margin: 2px;
@@ -57,7 +57,7 @@ nav > ul > li > a{
     border-top: 2px solid gray;
 }
 
-nav > ul > li >a:hover {
+menu > ul > li >a:hover {
     background-color: rgb(87, 81, 81);
     
 }
