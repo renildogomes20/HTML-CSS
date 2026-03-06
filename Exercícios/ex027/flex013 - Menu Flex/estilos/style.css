@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+/* Mobile first*/
+
+* {
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(225, 225, 224);
+}
+
+.container {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.item {
+    flex: auto;
+}
+
+header {
+    background-color: gray;
+    padding-bottom: 6px;
+}
+
+
+header h1 {
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(255, 254, 254);
+
+}
+
+#menu {
+    text-align: center;
+    background-color: rgb(23, 22, 22);
+    color: white;
+    margin: 12px 20px 0px 20px;
+    padding: 4px; 
+    cursor: pointer;
+}
+
+
+nav > ul > li {
+    text-align: center;
+    list-style-type: none;
+    background-color: rgb(24, 23, 23);
+    padding: 6px;
+    margin: 7px 20px 7px 20px;
+    border-radius: 3px;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: rgb(218, 211, 211);
+}
+
+nav li:hover {
+    background-color: rgba(49, 46, 46, 0.766);
+    transition: 0.5s ease;
+}
+
+main {
+    min-width: 320px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 4px;
+}
+
+main section {
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+    line-height: 1.3em;
+}
+
+main section h2 {
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
