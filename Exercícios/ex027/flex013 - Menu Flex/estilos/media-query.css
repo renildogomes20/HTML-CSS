@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+/*Configuração para tablet*/
+@media screen and (min-width:992px) {
+    #menu {
+        display: none;
+    }
+
+    .container {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item {
+        flex: auto;
+    }
+
+    header h1 {
+        margin-left: 12px;
+        text-align: initial;
+    }
+
+
+    ul {
+        margin-top: 10px;
+        display: flex;
+        margin-right: 12px;
+        align-content: center;
+    }
+
+    nav > ul > li {
+        margin: 2px;
+    }
+}
