@@ -1,6 +1,38 @@
 @charset "UTF-8";
 
 /*Configuração para tablet*/
+
+@media screen and (min-width:768px) and (max-width:992px) {
+    #menu {
+        display: none;
+    }
+
+    .container {
+        flex-flow: row nowrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .item {
+        flex: auto;
+    }
+
+    ul {
+        display: flex;
+        margin-top: 10px;
+        margin-right: 10px;
+        align-content: center;
+    }
+
+    header h1 {
+        margin-left: 12px;
+        text-align: initial;
+    }
+
+    nav > ul > li {
+        margin: 2px;
+    }
+}
 @media screen and (min-width:992px) {
     #menu {
         display: none;
@@ -28,6 +60,7 @@
         margin-right: 12px;
         align-content: center;
     }
+
 
     nav > ul > li {
         margin: 2px;
